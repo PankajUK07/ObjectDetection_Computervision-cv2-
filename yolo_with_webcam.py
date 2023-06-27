@@ -8,7 +8,7 @@ cap = cv2.VideoCapture(0)
 cap.set(3, 800)
 cap.set(4, 600)
 
-model = YOLO("../Yolo-Weights/yolov8n.pt")
+model = YOLO("Yolo-Weights/yolov8n.pt")
 
 classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat",
               "traffic light", "fire hydrant", "stop sign", "parking meter", "bench", "bird", "cat",
